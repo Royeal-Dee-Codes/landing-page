@@ -1,0 +1,136 @@
+body,
+html {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  background-color: darkgrey;
+}
+
+.landing-page-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -33px;
+}
+.landing-page-container .header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/styles/images/Electric-Hand-Tools.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 90%;
+  background-attachment: fixed;
+}
+.landing-page-container .header-wrapper h1 {
+  font-size: 8vw;
+  font-weight: 800;
+  margin: 0;
+  color: #d6d6b1;
+}
+.landing-page-container .header-wrapper h1 span {
+  color: #2274a5;
+}
+.landing-page-container .header-wrapper .heading {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page-container .header-wrapper .heading .line-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page-container .header-wrapper .heading h3 {
+  font-size: 22px;
+  color: #de541e;
+}
+.landing-page-container .content-container {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 55px;
+}
+.landing-page-container .content-container h2 {
+  text-align: center;
+  padding: 20px 55px;
+}
+.landing-page-container .content-container p {
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 55px;
+}
+
+.tool-container-wrapper {
+  padding: 10px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  background-color: #878472;
+}
+.tool-container-wrapper .one,
+.tool-container-wrapper .two,
+.tool-container-wrapper .three,
+.tool-container-wrapper .four {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 20px;
+}
+.tool-container-wrapper .one img,
+.tool-container-wrapper .two img,
+.tool-container-wrapper .three img,
+.tool-container-wrapper .four img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.tool-container-wrapper .one h2,
+.tool-container-wrapper .two h2,
+.tool-container-wrapper .three h2,
+.tool-container-wrapper .four h2 {
+  color: #3f3f37;
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.tool-container-wrapper .one p,
+.tool-container-wrapper .two p,
+.tool-container-wrapper .three p,
+.tool-container-wrapper .four p {
+  margin-bottom: 10px;
+  color: #555;
+}
+.tool-container-wrapper .one button,
+.tool-container-wrapper .two button,
+.tool-container-wrapper .three button,
+.tool-container-wrapper .four button {
+  background-color: #2274a5;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color -0.3s ease;
+}
+.tool-container-wrapper .one button:hover,
+.tool-container-wrapper .two button:hover,
+.tool-container-wrapper .three button:hover,
+.tool-container-wrapper .four button:hover {
+  background-color: #2980b9;
+}/*# sourceMappingURL=index.css.map */

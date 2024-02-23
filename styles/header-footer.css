@@ -1,0 +1,130 @@
+body,
+html {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3f3f37;
+  height: 70px;
+  z-index: 3;
+  position: relative;
+  top: 0;
+}
+.nav img {
+  height: 65px;
+  width: auto;
+  margin: auto;
+  margin-left: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav-link-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-link-wrapper ul {
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-link-wrapper ul a {
+  justify-content: space-evenly;
+  display: flex;
+  color: #d6d6b1;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.nav-link-wrapper ul a:hover {
+  color: #de541e;
+}
+
+.sm-link-wrapper {
+  justify-content: space-around;
+  display: flex;
+  width: 50vw;
+}
+.sm-link-wrapper ul {
+  justify-content: space-around;
+  display: flex;
+  width: 50%;
+}
+.sm-link-wrapper ul i {
+  color: #de541e;
+}
+.sm-link-wrapper ul i:hover {
+  color: #d6d6b1;
+}
+
+footer {
+  background-color: #3f3f37;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .top-wrapper img {
+  height: 143px;
+  margin-top: 20px;
+}
+footer .top-wrapper .nav-wrapper {
+  margin-right: 35px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+footer .top-wrapper .nav-wrapper ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .top-wrapper .nav-wrapper ul a {
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: #de541e;
+  font-weight: 400;
+  letter-spacing: 1px;
+  opacity: 80%;
+}
+footer .top-wrapper .nav-wrapper ul a:hover {
+  color: #d6d6b1;
+}
+
+.bottom-wrapper ul {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 0;
+}
+.bottom-wrapper ul i {
+  color: #d6d6b1;
+  margin: 0;
+}
+.bottom-wrapper ul i:hover {
+  color: #de541e;
+}
+
+.copyright {
+  color: #d6d6b1;
+  opacity: 70%;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}/*# sourceMappingURL=header-footer.css.map */
